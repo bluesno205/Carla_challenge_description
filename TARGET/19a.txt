@@ -1,0 +1,22 @@
+"Environment":
+    "Weather": "sunny"
+    "Time": "daytime"
+"Road network":
+    "Road type": "t-intersection"
+    "Road marker": "None"
+    "Traffic signs": "None"
+"Actors":
+    "Ego vehicle":
+        "Behavior": "turn left"
+	"Position":
+          "Position reference": "t-intersection"
+          "Position relation": "behind"
+    "Other actor 1":
+	 "Type": "car"
+        "Behavior": "static"
+        "Position":
+          "Position reference": "t-intersection"
+          "Position relation": "left"
+"Oracle":
+    "lateral": "None"
+    "longitudinal": "yield"

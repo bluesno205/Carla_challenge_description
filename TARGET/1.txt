@@ -1,0 +1,16 @@
+"Environment":
+    "Weather": "rainy"
+    "Time": "daytime"
+"Road network":
+    "Road type": "two-lane road"
+    "Road marker": "broken line"
+    "Traffic signs": "None"
+"Actors":
+    "Ego vehicle":
+        "Behavior": "go forward"
+	"Position":
+          "Position reference": "two-lane road"
+          "Position relation": "right"
+"Oracle":
+    "lateral": "None"
+    "longitudinal": "yield"

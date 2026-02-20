@@ -1,0 +1,34 @@
+"Environment":
+    "Weather": "sunny"
+    "Time": "daytime"
+"Road network":
+    "Road type": "intersection"
+    "Road marker": "None"
+    "Traffic signs": "None"
+"Actors":
+    "Ego vehicle":
+        "Behavior": "go forward"
+	"Position":
+          "Position reference": "intersection"
+          "Position relation": "behind"
+    "Other actor 1":
+	 "Type": "car"
+        "Behavior": "go forward"
+        "Position":
+          "Position reference": "intersection"
+          "Position relation": "left"
+    "Other actor 2":
+	 "Type": "car"
+        "Behavior": "go forward"
+        "Position":
+          "Position reference": "intersection"
+          "Position relation": "right"
+    "Other actor 3":
+	 "Type": "car"
+        "Behavior": "go forward"
+        "Position":
+          "Position reference": "intersection"
+          "Position relation": "opposite"
+"Oracle":
+    "lateral": "None"
+    "longitudinal": "yield"

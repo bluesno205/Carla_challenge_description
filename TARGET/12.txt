@@ -1,0 +1,40 @@
+"Environment":
+    "Weather": "sunny"
+    "Time": "daytime"
+"Road network":
+    "Road type": "two-lane road"
+    "Road marker": "broken line"
+    "Traffic signs": "None"
+"Actors":
+    "Ego vehicle":
+        "Behavior": "go forward"
+	"Position":
+          "Position reference": "two-lane road"
+          "Position relation": "right"
+    "Other actor 1":
+	 "Type": "car"
+        "Behavior": "go forward"
+        "Position":
+          "Position reference": "two-lane road"
+          "Position relation": "left"
+    "Other actor 2":
+	 "Type": "car"
+        "Behavior": "go forward"
+        "Position":
+          "Position reference": "Other actor 1"
+          "Position relation": "front"
+    "Other actor 3":
+	 "Type": "car"
+        "Behavior": "go forward"
+        "Position":
+          "Position reference": "Other actor 2"
+          "Position relation": "front"
+    "Other actor 4":
+	 "Type": "car"
+        "Behavior": "static"
+        "Position":
+          "Position reference": "ego vehicle"
+          "Position relation": "front"
+"Oracle":
+    "lateral": "None"
+    "longitudinal": "yield"

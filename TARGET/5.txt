@@ -1,0 +1,22 @@
+"Environment":
+    "Weather": "sunny"
+    "Time": "daytime"
+"Road network":
+    "Road type": "intersection"
+    "Road marker": "None"
+    "Traffic signs": "traffic light"
+"Actors":
+    "Ego vehicle":
+        "Behavior": "go forward"
+	"Position":
+          "Position reference": "intersection"
+          "Position relation": "behind"
+    "Other actor 1":
+	 "Type": "truck"
+        "Behavior": "go forward"
+        "Position":
+          "Position reference": "intersection"
+          "Position relation": "left"
+"Oracle":
+    "lateral": "None"
+    "longitudinal": "yield"

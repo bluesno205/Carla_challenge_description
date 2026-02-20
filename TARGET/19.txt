@@ -1,0 +1,22 @@
+"Environment":
+    "Weather": "sunny"
+    "Time": "daytime"
+"Road network":
+    "Road type": "crosswalk"
+    "Road marker": "None"
+    "Traffic signs": "None"
+"Actors":
+    "Ego vehicle":
+        "Behavior": "turn left"
+	"Position":
+          "Position reference": "crosswalk"
+          "Position relation": "behind"
+    "Other actor 1":
+	 "Type": "pedestrian"
+        "Behavior": "static"
+        "Position":
+          "Position reference": "crosswalk"
+          "Position relation": "on"
+"Oracle":
+    "lateral": "None"
+    "longitudinal": "yield"
